@@ -1,130 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalale=0">
-    <title>Cafe&Restaurants</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;500;600;700&family=Marck+Script&family=Yeseva+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1be1ebd693.js" crossorigin="anonymous"></script>
+  <title>Food&Drinks</title>
 </head>
-<body class="body">
+<body>
+  <section class="banner" id="home">
+    <header class="header">
+      <a href="#home"><img src="img/logo/logo.png" alt="Logo Food&Drinks" class="header__logo"></a>
+      <div class="nav__icon">
+        <span></span>
+      </div>
+      <nav class="nav__body">
+        <ul class="header__nav-list">
+          <li><a href="#home" class="header__nav-link">Home</a></li>
+          <li><a href="#about" class="header__nav-link">About</a></li>
+          <li><a href="#ingredients" class="header__nav-link">Ingredients</a></li>
+          <li><a href="#menu" class="header__nav-link">Menu</a></li>
+          <li><a href="#reviews" class="header__nav-link">Reviews</a></li>
+          <li><a href="#booking" class="header__nav-link">Reservations </a></li>
+        </ul>
+      </nav>
+    </header>
     <div class="container">
-        <header class="header">
-            <div class="header__contact">
-                <h2 class="header__subtitle">Home Delivery</h2>
-                <p class="header_tel">123-456-7890</p>
-            </div>
-            <img class="header__logo" src="img/logo.png" alt="logo">
-            <div class="header__form">
-                <ul class="header__nav">
-                    <li><a class="header__nav__link" href="#">FAQ</a></li>
-                    <li><a class="header__nav__link decorations" href="#">Directions</a></li>
-                    <li><a class="header__nav__link" href="#">Help</a></li>
-                </ul>
-                <form class="header__search" action="#" method="post">
-                    <input type="text" name="search" placeholder="Search">
-                </form>
-            </div>
-        </header>
-        <div class="wrapper">
-            <div class="content">
-            <div class="content__nav_border">
-             <ul class="content__nav">
-                <li><a class="content__nav_link" href="#">Home</a></li>
-                <li><a class="content__nav_link dotted" href="#">About Us</a></li>
-                <li><a class="content__nav_link dotted" href="#">Menu</a></li>
-                <li><a class="content__nav_link dotted" href="#">Menu</a></li>
-                <li><a class="content__nav_link dotted" href="#">Dinner</a></li>
-                <li><a class="content__nav_link dotted" href="#">Lunch</a></li>
-                <li><a class="content__nav_link dotted" href="#">Specials</a></li>
-                <li><a class="content__nav_link dotted" href="#">Party</a></li>
-                <li><a class="content__nav_link dotted" href="#">Catering</a></li>
-                <li><a class="content__nav_link dotted" href="#">Contact Us</a></li>
-             </ul>
-            </div>
-             <div class="content__box">
-                <section class="banner">
-                    <h1 class="banner__title">Cafe & <br>Restaurant</h1>
-                    <a class="banner__btn" href="#">Order Now</a>
-                </section>
-                <section class="services">
-                    <div class="services__item">
-                        <h2 class="services__item_title">daily menu</h2>
-                        <img class="services__item_img" src="img/Layer_21.png">
-                        <h3 class="services__item_subtitle">Agedame tuna roll</h3>
-                        <p class="services__item_text">Maki de atún crujiente, servido sobre chips de tempura, salsa dinamita y salsa ponzu.</p>
-                    </div>
-                    <div class="services__item">
-                        <h2 class="services__item_title">specials</h2>
-                        <img class="services__item_img" src="img/Layer_20.png">
-                        <h3 class="services__item_subtitle">Agedame tuna roll</h3>
-                        <p class="services__item_text">Maki de atún crujiente, servido sobre chips de tempura, salsa dinamita y salsa ponzu.</p>
-                    </div>
-                    <div class="services__item">
-                        <h2 class="services__item_title">catering</h2>
-                        <img class="services__item_img" src="img/Layer_28.png">
-                        <h3 class="services__item_subtitle">Agedame tuna roll</h3>
-                        <p class="services__item_text">Maki de atún crujiente, servido sobre chips de tempura, salsa dinamita y salsa ponzu.</p>
-                    </div>
-                </section>
-                <section class="blog">
-                    <div class="blog__menu">
-                        <h2 class="blog__menu_title">Menu items</h2>
-                        <ul class="blog__menu_list">
-                            <li>Appetizers</li>
-                            <li>Hot tapas</li>
-                            <li>Soup and Salads</li>
-                            <li>Accompaniments</li>
-                            <li>Vegetarian Dish</li>
-                            <li>Chicken Dish</li>
-                            <li>Seafood Dish</li>
-                            <li>Vegetarian Sause</li>
-                            <li>Red Sause</li>
-                            <li>Seafood Dish</li>
-                            <li>Vegetarian Sause</li>
-                            <li>Red Sause</li>
-                            <li>Seafood Sause</li>
-                            <li>Desserts</li>
-                            <li>Seafood Dish</li>
-                            <li>Vegetarian Sause</li>
-                            <li>Red Sause</li>
-                        </ul>
-                    </div>
-                    <div class="blog__video">
-                        <h2 class="blog__video_title" >food videos</h2>
-                        <video class="blog__video_clip" controls preload="auto" src="img/coffee.mp4" poster="img/Slice_7.png" width="260" height="150"></video>
-                        <a class="blog__video_link" href="#">See More Videos ></a>
-                    </div>
-                    <div class="blog__post">
-                        <h2 class="blog__post_title">Testimonials</h2>
-                        <p class="blog__post_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam quam justo, interdum vitae fermentum nec, volutpat ac massa. Cras posuere massa in diam euismod pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <cite class="blog__post_cite"> Rafi, GraphicsFuel.com</cite>
-                    </div>
-                </section>
-                <div class="socials">
-                    <a class="socials_link" href="#"><img src="img/twitter.png" alt="twitter"></a>
-                    <a class="socials_link" href="#"><img src="img/facebook.png" alt="facebook"></a>
-                    <a class="socials_link" href="#"><img src="img/linkedin.png" alt="linkedin"></a>
-                    <a class="socials_link" href="#"><img src="img/email.png" alt="email"></a>
-                </div>
-                <footer class="footer">
-                    <ul class="footer__nav">
-                        <li><a class="footer__nav_link" href="#">Home</a></li>
-                        <li><a class="footer__nav_link" href="#">About Us</a></li>
-                        <li><a class="footer__nav_link" href="#">Menu</a></li>
-                        <li><a class="footer__nav_link" href="#">Dinner</a></li>
-                        <li><a class="footer__nav_link" href="#">Lunch</a></li>
-                        <li><a class="footer__nav_link" href="#">Specials</a></li>
-                        <li><a class="footer__nav_link" href="#">Party</a></li>
-                        <li><a class="footer__nav_link" href="#">Catering</a></li>
-                        <li><a class="footer__nav_link" href="#">Contact Us</a></li>
-                    </ul>
-                    <p class="footer__copyright">Copyright © 2011 <a class="p__link" href="#">Cafe&Restaurant.com</a>. All Rights Reserved. Site Designed by <a class="p__link" href="#">GraphicsFuel.com</a></p>
-                </footer>
-             </div>
-            </div>
+      <div class="banner__content">
+        <h1 class="banner_title">The right ingredients for the right food</h1>
+        <div class="banner__buttons">
+          <a href="#" class="banner__btn btn">Book A Table</a>
+          <a href="#" class="banner__btn btn">Call Now</a>
         </div>
+      </div>
     </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about__content">
+      <h2 class="section__title about__title">discover Our Story</h2>
+      <p class="about__text text">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+      <img src="img/chef.png" alt="Chef" class="about__img">
+    </div>
+  </section>
+  <section class="ingredients" id="ingredients">
+    <div class="container">
+      <div class="ingredients__content">
+        <img src="img/Layer_13.png" alt="Sushi" class="ingredients__img">
+        <div class="ingredients__info">
+          <h2 class="section__title ingredients__title">Fine ingredients</h2>
+      <p class="ingredients__text text">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+      <div class="ingredients__info-images">
+        <img src="img/1.png" alt="Grain" class="info-images__item">
+        <img src="img/2.png" alt="Turmeric" class="info-images__item">
+        <img src="img/3.png" alt="Bread" class="info-images__item">
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="menu__content">
+        <div class="menu__loyout">
+        <div class="menu__section">
+          <h2 class="menu__section-title section__title">Appetisers</h2>
+          <div class="menu__items">
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Tzatsiki</h3>
+                <span class="dish-price">29.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Aubergine Salad</h3>
+                <span class="dish-price">39.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Aubergine Salad</h3>
+                <span class="dish-price">39.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu__section">
+          <h2 class="menu__section-title section__title">Salads</h2>
+          <div class="menu__items">
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Olive Special</h3>
+                <span class="dish-price">39.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Greek Salad</h3>
+                <span class="dish-price">19.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Gusto Salad</h3>
+                <span class="dish-price">12.25</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="menu__loyout">
+        <div class="menu__section">
+          <h2 class="menu__section-title section__title">Starters</h2>
+          <div class="menu__items">
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Haloumi </h3>
+                <span class="dish-price">31.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Spinach Pie</h3>
+                <span class="dish-price">33.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+          </div>
+        </div>
+        <div class="menu__section">
+          <h2 class="menu__section-title section__title">Main Dishes</h2>
+          <div class="menu__items">
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Cornish Mackerel</h3>
+                <span class="dish-price">17.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Roast Lamb</h3>
+                <span class="dish-price">14.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Fried Chicken</h3>
+                <span class="dish-price">18.25</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__item-header">
+                <h3 class="dish-name">Pastitsio</h3>
+                <span class="dish-price">21.50</span>
+              </div>
+              <p class="dish-description">Refreshing traditional cucumber and garlic yoghurt dip.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2 class="section__title reviews__title">Guest Reviews</h2>
+      <div class="reviews__content">
+        <button class="slider__prev fas fa-angle-left"></button>
+        <div class="slider">
+          <div class="slider__content">
+              <div class="slider__item">
+                <p class="slider__reviews-text ">The food was excellent and the service was the best we’ve experienced in Venice so far. We’ll definitely come back to try out more of the dishes!</p>
+                <span class="slider__author-text">Jhon Hasegools - SoooP Inc.</span>
+              </div>
+              <div class="slider__item">
+                <p class="slider__reviews-text">The food was excellent and the service was the best we’ve experienced in Venice so far. We’ll definitely come back to try out more of the dishes!</p>
+                <span class="slider__author-text">Jhon Hasegools - SoooP Inc.</span>
+              </div>
+              <div class="slider__item">
+                <p class="slider__reviews-text">The food was excellent and the service was the best we’ve experienced in Venice so far. We’ll definitely come back to try out more of the dishes!</p>
+                <span class="slider__author-text">Jhon Hasegools - SoooP Inc.</span>
+              </div>
+          </div>
+        </div>
+        <button class="slider__next fas fa-angle-right"></button>
+        </div>
+      </div>
+  </section>
+  <section class="booking" id="booking">
+    <div class="container">
+      <div class="booking__content">
+        <div class="booking__images">
+          <img src="img/Layer_4.png" alt="Pie" class="booking__img">
+          <img src="img/Layer_5.png" alt="Pasta" class="booking__img">
+        </div>
+        <div class="booking__info">
+          <h2 class="section__title booking__title">Just the right food</h2>
+          <p class="booking__text text">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p>
+          <form action="#" method="POST" class="booking__form">
+            <fieldset class="form-fieldset">
+              <fieldset class="form-item">
+                <label class="form-label" for="Name">Name</label>
+                <input type="text" class="form-input" placeholder="your name *" name="Name" id="Name">
+              </fieldset>
+              <fieldset class="form-item">
+                <label class="form-label" for="Email">Email</label>
+                <input type="email" class="form-input" placeholder="your email *" name="Email" id="Email">
+              </fieldset>
+            </fieldset>
+            <fieldset class="form-fieldset">
+              <fieldset class="form-item">
+                <label for="Date" class="form-label">Date</label>
+                <input type="date" class="form-input" name="Date" id="date">
+              </fieldset>
+              <fieldset class="form-item">
+              <label for="Party size" class="form-label">Party size</label>
+                <select class="form-input" name="Party size" id="Party size">
+                  <option value=""disabled selected>Party Number</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </fieldset>
+            </fieldset>
+            <input type="submit" class="form-btn" value="Book now!">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__item">
+          <i class="footer__item-icon fas fa-phone-alt"></i>
+          <a href="tel:+33332221111" class="footer__link">3333 222 1111</a>
+          <a href="tel:+18001234" class="footer__link">1 800 1234</a>
+        </div>
+        <div class="footer__item">
+          <a href="#"><img src="img/logo/logo.png" alt="Logo Food&Drinks" class="footer__logo"></a>
+          <div class="socials">
+            <a href="#" class="social__link">
+              <i class="social__icon fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social__link">
+              <i class="social__icon fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social__link">
+              <i class="social__icon fab fa-dribbble"></i>
+            </a>
+            <a href="#" class="social__link">
+              <i class="social__icon fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social__link">
+              <i class="social__icon fab fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer__item">
+          <i class="footer__item-icon fas fa-map-marker-alt"></i>
+          <p class="footer-text">99 Barnard St - Suite 111
+            United States - GA 22222 </p>
+        </div>
+      </div>
+      <p class="copyright">© Themexpert</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

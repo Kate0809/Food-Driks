@@ -52,7 +52,7 @@ body{
   z-index: 1000;
 }
 .header__logo {
-  width: 85%;
+  width: 77%;
 }
 .header__logo:hover{
   filter: drop-shadow(4px 4px 1px rgba(251, 82, 49, 0.4));
@@ -129,7 +129,7 @@ body{
     padding: 10px 80px;
   }
   .header__logo {
-    width: 80%;
+    width: 70%;
   }
   .header__nav-link {
     margin: 0 12px;
@@ -156,7 +156,7 @@ body{
     padding: 10px 70px;
   }
   .header__logo {
-    width: 70%;
+    width: 60%;
   }
   .nav__icon {
 		display: block;
@@ -253,6 +253,9 @@ body{
     margin-bottom: 50px;
     padding: 10px 40px;
   }
+  .header__logo {
+    width: 50%;
+  }
   .sticky{
     padding: 10px 40px;
   }
@@ -282,7 +285,7 @@ body{
     padding: 10px 20px;
   }
   .header__logo {
-    width: 60%;
+    width: 45%;
   }
   .banner_title {
     font-size: 30px;
@@ -811,6 +814,7 @@ body{
 }
 .footer__item-icon {
   display: block;
+  max-width: 20px;
   margin: 0 auto 18px;
   font-size: 20px;
   color: #ffffff;

@@ -16,7 +16,7 @@ $('.nav__body').click(function(){
 //Плавающая шапка
 window.addEventListener("scroll", function(){
     let header = document.querySelector("header");
-    header.classList.toggle("sticky", window.scrollY > 190);
+    header.classList.toggle("sticky", window.scrollY > 240);
 });
 
 //Slider
